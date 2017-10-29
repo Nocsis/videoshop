@@ -1,0 +1,19 @@
+= VideoShop - Änderungsdokumentation
+
+Doku der von Nicos Lentzsch vorgenommenen Änderungen am Videoshop zur Nachvollziehbarkeit für Dritte.
+
+NOTE: Alle Änderungen finden sich in den OrderController.java und cart.html Dateien
+
+## Warenkorb
+
+### Einzelne Einträge löschen
+
+In jeder Tabellenzeile des Warenkorbes wird als viertes Element ein "Entfernen"-Button angezeigt, um den jeweiligen Eintrag zu löschen.
+
+### Gesamten Korb leeren
+
+Im Tabellenkopf des Warenkorbes wird als viertes Element ein "Warenkorb leeren"-Button angezeigt, um alle Einträge entfernen zu können.
+
+### Buttons bei leerem Korb
+
+Wenn sich keine Items im Warenkorb befinden, werden unter der cart.empty-Meldung zwei Buttons angezeigt, die jeweils zum DVD oder BluRay Katalog weiterleiten
