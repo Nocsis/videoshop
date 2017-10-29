@@ -8,12 +8,15 @@ NOTE: Alle Änderungen finden sich in den OrderController.java und cart.html Dat
 
 ### Einzelne Einträge löschen
 
-In jeder Tabellenzeile des Warenkorbes wird als viertes Element ein "Entfernen"-Button angezeigt, um den jeweiligen Eintrag zu löschen.
+In jeder Tabellenzeile des Warenkorbes wird als viertes Element ein "Entfernen"-Button angezeigt, um den jeweiligen Eintrag zu löschen. +
+-> cart.html 45-49 / OrderController.java 114-121
 
 ### Gesamten Korb leeren
 
-Im Tabellenkopf des Warenkorbes wird als viertes Element ein "Warenkorb leeren"-Button angezeigt, um alle Einträge entfernen zu können.
+Im Tabellenkopf des Warenkorbes wird als viertes Element ein "Warenkorb leeren"-Button angezeigt, um alle Einträge entfernen zu können. +
+-> cart.html 32-36 / OrderController.java 128-135
 
 ### Buttons bei leerem Korb
 
-Wenn sich keine Items im Warenkorb befinden, werden unter der cart.empty-Meldung zwei Buttons angezeigt, die jeweils zum DVD oder BluRay Katalog weiterleiten
+Wenn sich keine Items im Warenkorb befinden, werden unter der cart.empty-Meldung zwei Buttons angezeigt, die jeweils zum DVD oder BluRay Katalog weiterleiten. +
+-> cart.html 90-103
