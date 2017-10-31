@@ -47,7 +47,16 @@
                             <i class="add to cart icon"></i> Hinzufügen
                         </button>
                     </form>
+                    <form class="ui form" method="post" th:action="@{/wishlist}">
+                        <input type="hidden" name="pid" value="0" th:value="${disc.id}"/>
+                        <button type="submit" class="ui labeled icon button">
+                            <i class="add to cart icon"></i> Wunschliste
+                        </button>
+                    </form>
                 </div>
+                <form class="ui form"  method="post" th:action="@{/printstuff}">
+                    <button type="submit" class="ui button" >Hi there</button>
+                </form>
             </div>
         </div>
     </div>
