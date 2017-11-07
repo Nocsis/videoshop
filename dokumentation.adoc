@@ -4,6 +4,9 @@ Doku der von Nicos Lentzsch vorgenommenen Änderungen am Videoshop zur Nachvollz
 
 NOTE: Alle Änderungen finden sich in den OrderController.java und cart.html Dateien
 
+NOTE: Im Projekt sind weitere Änderungen vorgenommen worden, die jedoch nicht zu den additionalen Funktionen meines Prototyps zählen.
+Nur die Änderungen, die hier dokumentiert sind, sind relevant. (Stand der relevanten Commits: 29.10.2017)
+
 ## Warenkorb
 
 ### Einzelne Einträge löschen
